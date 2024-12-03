@@ -2,6 +2,7 @@
 
 Este es un proyecto básico en PHP puro que utiliza el paquete `vlucas/phpdotenv` para gestionar las variables de entorno. Está diseñado para ser minimalista y seguro, siguiendo buenas prácticas como el uso de un archivo `.env` para datos sensibles.
 
+
 ## Características
 
 - Gestión de variables de entorno con [`vlucas/phpdotenv`](https://github.com/vlucas/phpdotenv).
@@ -9,12 +10,14 @@ Este es un proyecto básico en PHP puro que utiliza el paquete `vlucas/phpdotenv
 - Configuración segura para evitar exponer credenciales en repositorios públicos.
 - Preparado para trabajar con Composer.
 
+
 ## Requisitos
 
 - **PHP** >= 7.4
 - **Composer** para manejar dependencias.
 - Servidor web local como Apache o Nginx.
 - Acceso a una base de datos (MySQL o MariaDB recomendado).
+
 
 ## Instalación
 
@@ -40,14 +43,12 @@ Este es un proyecto básico en PHP puro que utiliza el paquete `vlucas/phpdotenv
 4. **Configurar la base de datos** Asegúrate de que tu base de datos esté configurada correctamente. Puedes usar el archivo create_tables.php para crear las tablas necesarias:
 
     ```bash
-    Copy code
     php create_tables.php
     ```
 
 5. **Iniciar el servidor** Si estás trabajando en un entorno local, usa el servidor integrado de PHP:
 
     ```bash
-    Copy code
     php -S localhost:8000
     ```
 
@@ -66,26 +67,6 @@ Este es un proyecto básico en PHP puro que utiliza el paquete `vlucas/phpdotenv
     └── README.md            # Documentación del proyecto.
     ```
 
-
-## Cómo Contribuir
-1. Haz un fork del proyecto.
-    
-2. Crea una rama para tus cambios:
-    ```bash
-    git checkout -b mi-rama
-    ```
-
-3. Realiza los cambios y haz commit:
-    ```bash
-    git commit -m "Descripción de los cambios"
-    ```
-
-4. Envía los cambios a tu fork:
-    ```bash
-    git push origin mi-rama
-    ```
-
-5. Abre un Pull Request en el repositorio original.
 
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
