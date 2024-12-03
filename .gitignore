@@ -1,0 +1,28 @@
+# Ignorar el archivo .env
+.env
+
+# Ignorar la carpeta de dependencias de Composer
+/vendor/
+
+/composer.lock
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos temporales de PHP
+*.cache
+*.bak
+*.swp
+*.tmp
+
+# Archivos generados por el IDE (como Visual Studio Code)
+.vscode/
+.idea/
+*.code-workspace
+
+# Archivos de configuración locales
+*.local
